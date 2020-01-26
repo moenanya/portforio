@@ -129,6 +129,11 @@ li {
   max-width: 1000px;
 }
 
+.section-text span {
+
+background: linear-gradient(transparent 60%, #ffff66 60%);
+}
+
 /*--------------------------------
 ヘッダー
 ---------------------------------*/
@@ -301,6 +306,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 40px;
 }
 
 #feature .section-image {
@@ -319,6 +325,22 @@ li {
 #moreview {
   border-bottom: 2px dotted #000;
   color: #000;
+}
+
+#update {
+  margin: 40px 40px 0;
+  padding: 1em 0;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  line-height: 3em;
+}
+
+.fa-file-upload {
+  margin: 0 10px;
+}
+
+.fa-orange {
+  color: orange;
 }
 /*--------------------------------
  ILLUSTRATIONS
