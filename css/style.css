@@ -477,13 +477,9 @@ background: linear-gradient(transparent 60%, #ffff66 60%);
  CONTACT
 ---------------------------------*/
 
-#contact .contact-list  {
+#mail  {
   display: flex;
-  align-items: flex-end;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 150px;
-  margin: 0 auto;
+  justify-content: center;
 }
 
 /*--------------------------------
